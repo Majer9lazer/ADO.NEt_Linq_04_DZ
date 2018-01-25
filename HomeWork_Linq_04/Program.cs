@@ -32,8 +32,9 @@ namespace HomeWork_Linq_04
         {
             var a  = db.Areas.Select(s => s).ToList();
             foreach (Area item in a)
-
+                
             {
+
                 Directory.CreateDirectory(item.Name);
              
             }
