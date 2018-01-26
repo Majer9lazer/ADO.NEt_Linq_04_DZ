@@ -55,7 +55,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Area.cs" />
-    <Compile Include="Model\CRCMS_new.cs" />
+    <Compile Include="Model\Local_DB.cs" />
+    <Compile Include="Model\Timer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

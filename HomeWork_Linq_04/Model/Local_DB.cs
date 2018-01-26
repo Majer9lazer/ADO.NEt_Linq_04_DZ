@@ -5,14 +5,15 @@ namespace HomeWork_Linq_04.Model
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class CRCMS_new : DbContext
+    public partial class Local_DB : DbContext
     {
-        public CRCMS_new()
-            : base("name=CRCMS_new")
+        public Local_DB()
+            : base("name=Local_DB")
         {
         }
 
         public virtual DbSet<Area> Areas { get; set; }
+        public virtual DbSet<Timer> Timers { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
